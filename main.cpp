@@ -151,7 +151,6 @@ int main()
             t.join();
         }
 
-
         for(int i = 0; i < tempFiles.size(); ++i)
         {
             if(tempFiles[i] == 1)
@@ -160,12 +159,8 @@ int main()
             }
         }
 
-
         if (stop)
             break;
-
-
-
     }
 
     std::cout << "Finished\n";
